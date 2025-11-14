@@ -12,7 +12,7 @@ library(corrplot)
 library(leaps) # libreria per redsubsets
 
 # Importo il Dataset nel progetto
-ds = read.csv("/Users/lorenzo/Desktop/magistrale/Data_Science/exercise_30_10.csv",header = T ,na.strings = "?")
+ds = read.csv("/Users/-/Desktop/magistrale/Data_Science/exercise_30_10.csv",header = T ,na.strings = "?")
 print(head(ds))
 print(dim(ds))
 

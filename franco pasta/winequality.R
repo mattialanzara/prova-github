@@ -1,7 +1,7 @@
 library(corrplot)
 library(leaps)
 # Obiettivo: Stimare la qualità del vino
-ds = read.csv("/Users/lorenzo/Desktop/magistrale/Data_Science/EserciziR/wine_quality/winequality-red.csv", sep = ";",na.strings = "?")
+ds = read.csv("/Users/--/Desktop/magistrale/Data_Science/EserciziR/wine_quality/winequality-red.csv", sep = ";",na.strings = "?")
 
 print(dim(ds))
 
